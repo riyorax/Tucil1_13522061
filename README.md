@@ -12,8 +12,28 @@
 Pada tugas kecil ini kami diminta untuk menyelesaikan permainan <em>Cyberpunk 2077 Breach Protocol</em> menggunakan algoritma Brute Force. Dalam penyelesaiannya program ini menggunakan bahasa C++ dan juga menggunakan interface CLI. Program ini dapat menerima input matriks dan sekuens token reward dalam dua bentuk yaitu dalam file txt yang sudah menggunakan format dari spek tugas dan juga input pengguna yang akan membuat matriks dan juga sekuens token reward secara otomatis oleh program. Program ini akan mencari sekuens yang akan menghasilkan nilai maksimal berdasarkan matriks, sekuens, dan buffer yang sudah ditentukan. Hasil dari program ini pun akan ditampilkan dan juga dapat disimpan dalam sebuah file txt.
 
 ## Table of Contents
+* [Project Structure](#project-structure)
 * [Getting started](#getting-started)
 * [Links](#links)
+
+## Project Structure
+
+```shell
+Project
+│   README.md
+│   run.bat
+│
+├───bin                             # Executable files
+│       main.exe
+│
+├───doc                             # Documentation files
+│
+├───src                             # Source code
+│       algorithm.cpp
+│       utilities.cpp
+│
+└───test                            # Test files
+```
 
 ## Getting started
 
